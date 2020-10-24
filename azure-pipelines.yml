@@ -29,3 +29,7 @@ steps:
   inputs:
     version: '3.0.x'
     packageType: runtime
+
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: 'Cobertura'
